@@ -3,6 +3,7 @@
 #include "days/day2/Day2.h"
 #include "days/day3/Day3.h"
 #include "days/day4/Day4.h"
+#include "days/day5/Day5.h"
 
 int main() {
 //    Day1 day1("inputs/1.txt");
@@ -14,7 +15,11 @@ int main() {
 //    Day3 day3("inputs/3.txt");
 //    day3.solve();
 
-    Day4 day4("inputs/4.txt");
-    day4.solve();
+//    Day4 day4("inputs/4.txt");
+//    day4.solve();
+
+    Day5 day5("inputs/5.txt");
+    day5.solve();
+
     return 0;
 }
